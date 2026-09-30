@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+display: flex;
+margin-left: 30px;
+
+align-items: center;
+
+height: 60px;
+
+}
+.yt{
+    color: red;
+   font-size: 25px;
+ 
+}
+.sidebar{
+   display: flex;
+   align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+.dropdown{
+   height: 100vh;
+/* background-color:aquamarine; */
+width: 264px;
+ overflow-y: scroll;
+    overflow-x: hidden;
+}
+.components{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(237, 243, 243); */
+    width: 260px;
+   gap: 15px;
+  /* padding-left: 30px; */
+    text-align: center;
+    padding-bottom: 4px;
+    /* padding-top: 20px; */
+    font-size: large;
+    justify-content: center;
+    /* margin-left: 18px; */
+    align-items: center;
+   
+}
+span{
+    font-size: 23.5px;
+    font-weight: bolder;
+}
+.abc{
+    font-size: 17.3px;
+}
+.ii{
+text-align: left;
+padding-top: 10px;
+padding-left: 20px;
+}
+a{
+padding-left: 20px;
+/* text-align: left; */
+font-size: large;
+text-decoration: none;
+color: black;
+}
+i:hover{
+color: red;
+}
+input{
+    width: 500px;
+    height: 40px;
+  
+    border-width: .2px;
+}
+.box{
+    border: 0.2px solid black;
+  width: 80px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+     border-width: .2px;
+}
+
+.nab{
+    display: flex;
+   
+}
+.mic{
+padding-left: 10px;
+font-size: large;
+}
+.y{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.c{
+    color: purple;
+}
+.three{
+    display: flex;
+    align-items: center;
+  gap: 30px;
+  font-size: large;
+}
+.nab{
+    align-items: center;
+}
+/* a:hover{
+    background-color: grey;
+
+} */
+.ii{
+    border: .5px solid black;
+    width: 264px;
+    height: 40px;
+  padding-left: 20px;
+  border-style: none;
+  margin-left: 23px;
+}
+.ii:hover{
+background-color: lightgray;
+border-radius: 8px;
+}
+.t , .v, .b , .c{
+    font-size: larger;
+}
+input:focus{
+    border: .2px solid blue;
+    border-width: .2px;
+    
+}
+hr{
+    width: 264px;
+}
+/* .video{
+    margin-right: 300px
+} */
+ .main{
+    display: flex;
+    flex-wrap: wrap;
+   
+    /* background-color: aqua; */
+ }
+ /* .video:hover{
+    background-color: aqua;
+ } */
+ .video{
+    display: flex;
+  flex-direction: column;
+    margin-top: 10px;
+    width: 385px;
+    border-radius: 20px;
+ }
+ 
+ .subs{
+    margin-right: 100px;
+     font-weight: bold;
+     text-align: left;
+ }
+ .sm{
+    font-size:11px;
+
+   
+ }
+ .subss{
+    margin-right: 160px;
+    text-align: left;
+ }
